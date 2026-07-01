@@ -8,7 +8,7 @@ from huggingface_hub import InferenceClient
 
 HF_TOKEN = st.secrets["HF_TOKEN"]
 client = InferenceClient(
-    provider="hf-inference",
+    provider="sambanova",  # Changed from "hf-inference" to "sambanova"
     api_key=HF_TOKEN,
 )
 
