@@ -126,8 +126,8 @@ if prompt:
             try:
 
                 response = client.chat.completions.create(
-                    
-                    model="Qwen/Qwen2.5-7B-Instruct",
+                    model="openai/gpt-oss-20b:fireworks-ai",
+    
                     messages=messages,
                     max_tokens=500,
                     temperature=0.7
