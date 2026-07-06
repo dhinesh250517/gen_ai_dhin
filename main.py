@@ -1,9 +1,6 @@
 import streamlit as st
 from huggingface_hub import InferenceClient
 
-# ==========================
-# Paste your NEW Hugging Face Token here
-# ==========================
 
 
 HF_TOKEN = st.secrets["HF_TOKEN"]
